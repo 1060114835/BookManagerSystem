@@ -47,10 +47,6 @@ public class CheckUtil {
         }
     }
 
-    {
-        System.out.println("输入账号或密码错误，请重试");
-    }
-
     private void queryApplyList() {
         if (requestManger.getRequestList().size() == 0)
             System.out.println("当前请求列表为空");
